@@ -1,1 +1,6 @@
 .DS_Store
+*.env
+*.pyc
+*.wip
+*.cache
+data/data_api/google-credentials.json
