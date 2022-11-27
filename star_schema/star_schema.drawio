@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-27T19:23:19.635Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="14hc_4zhD0B9p9ITh51N" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-27T19:23:36.533Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="VqYfW5kiK-IOman834cN" version="20.5.3" type="github">
   <diagram id="Lu5KORJQyDP0WVwy52uV" name="Page-1">
     <mxGraphModel dx="1940" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,8 +16,8 @@
         <mxCell id="vZCdwGFw_1Mov0Ncn8PV-8" value="+song_id&#xa;+artist_id&#xa;+album_id&#xa;+genre&#xa;+song_title&#xa;+lyrics&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="vZCdwGFw_1Mov0Ncn8PV-7" vertex="1">
           <mxGeometry y="30" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="vZCdwGFw_1Mov0Ncn8PV-9" value="dim_band" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="300" y="80" width="140" height="120" as="geometry" />
+        <mxCell id="vZCdwGFw_1Mov0Ncn8PV-9" value="dim_band" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="500" y="40" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="vZCdwGFw_1Mov0Ncn8PV-10" value="+band_id&#xa;+band_name&#xa;+members&#xa;+founded_date&#xa;+retired_date&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="vZCdwGFw_1Mov0Ncn8PV-9" vertex="1">
           <mxGeometry y="30" width="140" height="90" as="geometry" />
