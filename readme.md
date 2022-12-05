@@ -27,7 +27,7 @@ https://medium.com/codex/upload-data-to-bigquery-via-python-bd31a8e61743
 | --- cel puțin un tabel populat folosind o funcție                                                                          |             |
 | Patru validări de date                                                                                                     | 1.00        |
 | Corectări de date folosind Pandas și BigQuery                                                                              | 1.00        |
-| Un Dashboard în Tableau care să conțină cel puțin trei Sheet-uri relevante                                                 | 2.50        |
-| Concluzii pe baza raportului din Tableau (rezultate, tendințe, etc)                                                        | 1.00        |
+| Un Dashboard în Tableau/Qlik care să conțină cel puțin trei Sheet-uri relevante                                            | 2.50        |
+| Concluzii pe baza raportului din Tableau/Qlik (rezultate, tendințe, etc)                                                   | 1.00        |
 | Oficiu                                                                                                                     | 1.00        |
 | Bonus (date semi-structurate, UNNEST, etc)                                                                                 | ?.??        |
