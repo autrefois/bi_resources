@@ -1,4 +1,5 @@
 from dotenv import load_dotenv
+import numpy as np
 import os
 import pandas as pd
 import requests
@@ -47,14 +48,13 @@ class SpotifyHelper():
         artist_id = result['tracks']['items'][0]['album']['artists'][0]['id']
         artist_items = result['tracks']['items']
         items = pd.DataFrame(artist_items)
-        items.drop('album', axis=1, inplace=True)
-        items.drop('artists', axis=1, inplace=True)
-        items.drop('available_markets', axis=1, inplace=True)
-        items.drop('disc_number', axis=1, inplace=True)
-        items.drop('external_ids', axis=1, inplace=True)
-        items.drop('href', axis=1, inplace=True)
-        items.drop('preview_url', axis=1, inplace=True)
+
+        # add some bad data
+        items = pd.concat([items, items], ignore_index=True)
+        items.loc[items.iloc[-1].name + 1,:] = np.nan
+
+
+        # add artist
         items['artist_id'] = artist_id
-        items = items.reindex(columns= ['id', 'artist_id', 'name', 'explicit','popularity'])
 
         return items
