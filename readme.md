@@ -13,3 +13,21 @@ https://www.freecodecamp.org/news/google-bigquery-beginners-guide/
 
 ## Loading data to BigQuery
 https://medium.com/codex/upload-data-to-bigquery-via-python-bd31a8e61743 
+
+
+# Project grade
+
+| **Cerință**                                                                                                                | **Punctaj** |
+|----------------------------------------------------------------------------------------------------------------------------|-------------|
+| Diagrama bazei de date                                                                                                     | 0.25        |
+| Toate tabelele corect construite (min. 1 Fact, 3 Dim)                                                                      | 0.75        |
+| --- schemele tabelelor incluse în proiect                                                                                  |             |
+| Toate tabelele populate                                                                                                    | 2.50        |
+| --- cel puțin un tabel populat folosind BigQuery API                                                                       |             |
+| --- cel puțin un tabel populat folosind o funcție                                                                          |             |
+| Patru validări de date                                                                                                     | 1.00        |
+| Corectări de date folosind Pandas și BigQuery                                                                              | 1.00        |
+| Un Dashboard în Tableau care să conțină cel puțin trei Sheet-uri relevante                                                 | 2.50        |
+| Concluzii pe baza raportului din Tableau (rezultate, tendințe, etc)                                                        | 1.00        |
+| Oficiu                                                                                                                     | 1.00        |
+| Bonus (date semi-structurate, UNNEST, etc)                                                                                 | ?.??        |
