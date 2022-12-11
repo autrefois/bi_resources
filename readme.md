@@ -4,6 +4,8 @@
 
 [2. BQ Data](https://www.canva.com/design/DAFTKZe6ssY/UBK-Fqw4B5SKHbWZVRt0GA/view?utm_content=DAFTKZe6ssY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
+[3. Reporting](https://www.canva.com/design/DAFUcUcwXQc/Trq3d0DQBEpzUTsXheyFvw/view?utm_content=DAFUcUcwXQc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+
 
 # Other resouces
 
